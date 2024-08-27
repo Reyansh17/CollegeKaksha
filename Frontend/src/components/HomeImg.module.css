@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /*Align items to the top */
+    padding: 50px;
+    position: relative; /* Ensure that the image section can be positioned relative to the container */
+    margin-bottom: -5%;
+}
+
+
+.tagline {
+    /* flex: 1; */
+    padding: 100px;
+    font-size: larger;
+    /* margin-top: 20%; */
+    margin-right: 20px;
+}
+
+.imageSection {
+    /* flex: 1; */
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    margin-right: auto;
+    height: 100%; /* Ensure the image section takes up full height */
+}
+
+h1{
+    font-family: Inter, sans-serif;
+    font-size: 50px;
+}

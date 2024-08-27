@@ -1,0 +1,11 @@
+.log {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #201E43;
+    color: aliceblue;
+    padding: 5px 15px;
+    border: none;
+    margin-Right: '10px';
+    cursor: pointer;
+    font-size: 20px;
+  }
